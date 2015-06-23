@@ -1,0 +1,34 @@
+Update controller: error updating
+jenny: about.blade.php Services automatically rearrange depending on number of skills 
+
+
+If all skills/quotes/portfolio items are deleted (aka $skills == null) remove the whole section
+
+force skillSlider->value from 0->100
+
+Make update fontawesome for skills through a dropdown not an insert the key
+
+add skill: choose images or icons as in whatever is populated in the db
+
+Add
+Remove 
+Update
+Images
+
+Confirm the minimum requirements for adding anything
+ex Quote needs to have a text/author
+ex. SkillsSlider enter value 0-100
+
+JS to fix the javascript and get the gps location in it
+number of portfolio pieces per category: maybe add a "value" param to the portfoilio category
+increment it on add of a portfolio piece to a category
+decrement on delete of a portfoilio piece
+
+remove a category ends the filtering for that category unless you rewrite it exactly the same
+
+portfolio item needs image fields or a joint table or something
+
+in home.blade.php
+if the user inputs a content_title_1 with no content_text_1 then the numbering gets off for the tabs
+
+entity->webiste needs to be in format: www.webiste.com not http://www.website.com
