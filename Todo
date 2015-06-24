@@ -32,3 +32,5 @@ in home.blade.php
 if the user inputs a content_title_1 with no content_text_1 then the numbering gets off for the tabs
 
 entity->webiste needs to be in format: www.webiste.com not http://www.website.com
+
+php contact form needs to link to entity->email
