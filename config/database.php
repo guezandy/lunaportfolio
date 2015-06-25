@@ -51,10 +51,24 @@ return [
             'database' => storage_path('database.sqlite'),
             'prefix'   => '',
         ],
-
+/*
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
+            'database'  => env('DB_DATABASE', 'portfolio'),
+            'unix_socket'   => '/Applications/MAMP/tmp/mysql/mysql.sock',
+            'username'  => env('DB_USERNAME', 'test'),
+            'password'  => env('DB_PASSWORD', ''),
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+        ],
+*/
+
+        'mysql' => [
+            'driver'    => 'mysql',
+            'host'      => env('DB_HOST', '104.131.2.133'),
             'database'  => env('DB_DATABASE', 'forge'),
             'username'  => env('DB_USERNAME', 'forge'),
             'password'  => env('DB_PASSWORD', '5YJC1McJHiE4b1YPzqEx'),
@@ -63,6 +77,7 @@ return [
             'prefix'    => '',
             'strict'    => false,
         ],
+
 
         'pgsql' => [
             'driver'   => 'pgsql',

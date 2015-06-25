@@ -34,3 +34,5 @@ if the user inputs a content_title_1 with no content_text_1 then the numbering g
 entity->webiste needs to be in format: www.webiste.com not http://www.website.com
 
 php contact form needs to link to entity->email
+
+add deleted at to all queries so that the people accessing the db can only add/update they can't do any deletes
