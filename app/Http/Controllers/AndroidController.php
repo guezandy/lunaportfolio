@@ -34,7 +34,7 @@ class AndroidController extends Controller {
 	 */
 	public function ping()
 	{
-		return Response::json(User::findOrFail(1));
+		return response()->json(['name' => 'Abigail', 'state' => 'CA']);//response()->json([User::findOrFail(1)]);
 	}
 
 
