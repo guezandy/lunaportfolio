@@ -16,6 +16,6 @@ class SimpleAuthMiddleware
      */
     public function handle($request, Closure $next)
     {
-        return Auth::onceBasic('username') ?: $next($request); //$next($request);
+        return Auth::onceBasic('name') ?: $next($request); //$next($request);
     }
 }
