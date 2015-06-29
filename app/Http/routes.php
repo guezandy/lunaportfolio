@@ -56,4 +56,7 @@ Route::any('/addPortfolioPiece', 'UpdateController@addPortfolioPiece');
 
 Route::any('/deletePortfolioPiece/{id}', 'UpdateController@deletePortfolioPiece');
 
+Route::get('/android_get', ['uses' => 'AndroidController@get','middleware'=>'androidauth']);
+Route::post('/android_post', ['uses' => 'AndroidController@post','middleware'=>'androidauth']);
+
 Route::any('/android_ping', 'AndroidController@ping');

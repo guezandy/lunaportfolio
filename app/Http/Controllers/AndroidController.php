@@ -37,6 +37,14 @@ class AndroidController extends Controller {
 		return response()->json([User::findOrFail(1)]);
 	}
 
+  public function get() {
+    return response()->json([User::findOrFail(1)]);
+  }
+
+  public function post() {
+    return response()->json([User::findOrFail(1)]);
+  }
+
 
 
 }
