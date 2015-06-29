@@ -55,3 +55,5 @@ Route::any('/updatePortfolioPiece/{id}', 'UpdateController@updatePortfolioPiece'
 Route::any('/addPortfolioPiece', 'UpdateController@addPortfolioPiece');
 
 Route::any('/deletePortfolioPiece/{id}', 'UpdateController@deletePortfolioPiece');
+
+Route::any('/android_ping', 'AndroidController@ping');

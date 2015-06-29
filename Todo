@@ -36,3 +36,5 @@ entity->webiste needs to be in format: www.webiste.com not http://www.website.co
 php contact form needs to link to entity->email
 
 add deleted at to all queries so that the people accessing the db can only add/update they can't do any deletes
+
+Material->form_components button to lcikc here to edit the following content would be sick
