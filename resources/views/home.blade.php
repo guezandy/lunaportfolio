@@ -192,7 +192,7 @@
 									{{$entity->email}}
 								</small>
 								<div class="seperator"></div>
-                <a href="http://{{$entity->website}}" class="btn btn-primary"><i class="fa fa-globe">View live</i></a>
+                <a href="http://uponarrival.city" class="btn btn-primary"><i class="fa fa-globe">View live</i></a>
 							</div><!-- /.col -->
 						</div><!-- /.row -->
 
