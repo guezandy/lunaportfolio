@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--Andrew Rodriguez Front end-->
 <html lang="en" class="no-js">
 	<head>
 		<meta charset="utf-8">
@@ -422,7 +422,7 @@
 		</section>
 
  		<!-- Portfolio -->
- 		<!--
+
 		<section id="portfolio" class="section section-solid">
 			<div class="container">
 				<div class="row">
@@ -563,7 +563,7 @@
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>
 
 		<!-- Contact -->
 		<section id="contact" class="section">
