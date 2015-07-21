@@ -499,4 +499,8 @@ class UpdateController extends Controller {
 			return 'An error has occured';
 		}
 	}
+
+	public function file() {
+		return view('file_upload');
+	}
 }

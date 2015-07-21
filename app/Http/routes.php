@@ -60,3 +60,5 @@ Route::get('/android_get', ['uses' => 'AndroidController@get','middleware'=>'and
 Route::post('/android_post', ['uses' => 'AndroidController@post','middleware'=>'androidauth']);
 
 Route::any('/android_ping', 'AndroidController@ping');
+
+Route::any('/hi', 'UpdateController@file');
