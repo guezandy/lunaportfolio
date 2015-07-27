@@ -1037,6 +1037,12 @@
                   </div><!-- /.col -->
                 </div><!-- /form-group -->
                 <div class="form-group">
+                  <label class="col-lg-1 control-label">Main Image</label>
+                  <div class="col-lg-11">
+                    {!! Form::file('main_image') !!}
+                  </div><!-- /.col -->
+                </div><!-- /form-group -->
+                <div class="form-group">
                   <label class="col-lg-1 control-label">Title 1</label>
                   <div class="col-lg-11">
                     <input type="text" class="form-control input-sm" id="add_title_1" name="add_title_1" placeholder="Title 1 for your piece">
