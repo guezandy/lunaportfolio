@@ -77,7 +77,7 @@
 			  <ul class="nav navbar-nav">
 				<li><a href="#home">Home <span class="sr-only">home</span></a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="#services">Services</a></li>
+				<li><a href="#services">Experience</a></li>
 				<li><a href="#resume">Resume</a></li>
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
@@ -140,7 +140,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h3 class="section-title">Services</h3>
+						<h3 class="section-title">Experienced in...</h3>
 						<div class="section-title-border"></div>
 					</div>
 				</div>
