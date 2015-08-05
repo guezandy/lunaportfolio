@@ -523,7 +523,7 @@
 				<ul id="portfolio-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
 					<li class="portfolio-item" data-groups='["all", "android"]'>
 						<div id="owl-demo">
-						  <div class="item"><img src="assets/img/portfolio/canIGoOut/canI.png" alt="Can I?"></div>
+						  <div class="item"><img src="assets/img/portfolio/canIGoOut/cani.png" alt="Can I?"></div>
 							<div class="item"><img src="assets/img/portfolio/canIGoOut/2.png" alt="Can I?"></div>
 							<div class="item"><img src="assets/img/portfolio/canIGoOut/3.png" alt="Can I?"></div>
 							<div class="item"><img src="assets/img/portfolio/canIGoOut/4.png" alt="Can I?"></div>
