@@ -15,16 +15,46 @@
 		<link href="assets2/css/jquery.bxslider.css" rel="stylesheet">
 		<link href="assets2/css/animate.css" rel="stylesheet">
 		<link href="assets2/css/app.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets2/css/owl.carousel.css">
+		<style>
+		#owl-demo .item{
+  		margin: 3px;
+		}
+		#owl-demo .item img{
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		}
+		#owl2 .item{
+			margin: 3px;
+		}
+		#owl2 .item img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+		#owl3 .item{
+			margin: 3px;
+		}
+		#owl3 .item img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+		#owl4 .item{
+			margin: 3px;
+		}
+		#owl4 .item img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+		</style>
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets2/img/favicon/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="assets2/img/favicon/favicon.ico" type="image/x-icon">
 
-		<!-- Respond.js IE8 support of media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
 
 		<script src="assets2/js/pace.min.js"></script>
 		<script src="assets2/js/modernizr.min.js"></script>
@@ -40,8 +70,7 @@
 			  </button>
 			  <a class="navbar-brand" href="#">
 			  	<h4>Andrew Rodriguez</h4>
-<!-- 				<img src="assets/img/logo/logo.png" alt="Logo">
- -->			  </a>
+			  </a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right" id="navbar">
@@ -51,7 +80,7 @@
 				<li><a href="#services">Services</a></li>
 				<li><a href="#resume">Resume</a></li>
 				<li><a href="#skills">Skills</a></li>
-				<!--<li><a href="#portfolio">Portfolio</a></li> -->
+				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#contact">Contact</a></li>
 			  </ul>
 			</div>
@@ -87,7 +116,7 @@
 
 				<div class="row mt20">
 					<div class="col-sm-4 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
-						<img src="assets2/img/about/2.jpg" class="img-responsive about-img" />
+						<img src="assets2/img/about/andrew_head.jpg" class="img-responsive about-img" />
 					</div>
 					<div class="col-sm-8 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
 						<p class="lead">
@@ -216,19 +245,6 @@
 								</div>
 							</div>
 						</div>
-<!-- 						<div class="feature-box-container">
-							<div class="feature-box">
-								<div class="icon">
-									<i class="fa fa-heart"></i>
-								</div>
-								<div class="description">
-									<h4>Nunc consectetur</h4>
-									<p>Sed ipsum nulla, eleifend ac consectetur ut, vehicula sed lacus.
-										Quisque lectus sem, vestibulum vel nibh.
-									</p>
-								</div>
-							</div>
-						</div> -->
 					</div>
 				</div>
 			</div>
@@ -409,14 +425,6 @@
 							<span class="lang-level">basic</span>
 						</div>
 					</div>
-<!-- 					<div class="col-sm-4 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.1s">
-						<h4>Hobies</h4>
-						<ul class="fa-ul skills-ul">
-						  <li><i class="fa-li fa fa-camera"></i>Nullam at fringilla</li>
-						  <li><i class="fa-li fa fa-plane"></i>Etiam nec convallis</li>
-						  <li><i class="fa-li fa fa-music"></i>Vivamus at purus</li>
-						</ul>
-					</div> -->
 				</div>
 			</div>
 		</section>
@@ -435,133 +443,115 @@
 					<div class="col-sm-12 text-center">
 						<ul id="filter" class="list-inline filter-tags">
 							<li><a href="#" class="btn btn-sm btn-theme-inverse active" data-group="all">All</a></li>
-							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="branding">Branding</a></li>
+							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="android">Android</a></li>
 							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="web">Web</a></li>
-							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="app">App</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="GITheWall">
+			<div class="">
 				<ul id="portfolio-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
-					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
+					<li class="portfolio-item" data-groups='["all", "web"]'>
 						<figure>
 							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Mollis magna</span>
-									<span class="category">branding</span>
+								<a href="http://lunadeveloper.com" class="overlay">
+									<span class="title">LunaDeveloper.com Updated</span>
+									<span class="category">Front End Development</span>
 								</a>
-								<img src="assets/img/portfolio/1.jpg" alt="" class="img-responsive">
+								<img src="assets/img/portfolio/lunaupdate.png" alt="" class="img-responsive">
 							</div>
 						</figure>
 					</li>
-					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
+					<li class="portfolio-item" data-groups='["all", "web"]'>
 						<figure>
 							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Suspendisse potenti</span>
-									<span class="category">web</span>
+								<a href="http://lunadeveloper.com/old" class="overlay">
+									<span class="title">LunaDeveloper.com ORIGINAL</span>
+									<span class="category">Front End Development</span>
 								</a>
-								<img src="assets/img/portfolio/2.jpg" alt="" class="img-responsive">
+								<img src="assets/img/portfolio/luna.png" alt="" class="img-responsive">
 							</div>
 						</figure>
 					</li>
-					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
+					<li class="portfolio-item" data-groups='["all", "web"]'>
 						<figure>
 							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Sed hendrerit</span>
-									<span class="category">app</span>
+								<a href="http://uponarrival.city" class="overlay">
+									<span class="title">UponArrival.city</span>
+									<span class="category">Laravel 5 Application</span>
 								</a>
-								<img src="assets/img/portfolio/3.jpg" alt="" class="img-responsive">
+								<img src="assets/img/portfolio/uponarrival.png" alt="" class="img-responsive">
 							</div>
 						</figure>
 					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
+					<li class="portfolio-item" data-groups='["all", "web"]'>
 						<figure>
 							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Etiam commodo lacus</span>
-									<span class="category">branding</span>
+								<a href="http://miamirldc.com" class="overlay">
+									<span class="title">Miami RLDC</span>
+									<span class="category">Front End Devlopment</span>
 								</a>
-								<img src="assets/img/portfolio/4.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Ac tristique</span>
-									<span class="category">web</span>
-								</a>
-								<img src="assets/img/portfolio/5.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Ipsum tempor quis</span>
-									<span class="category">app</span>
-								</a>
-								<img src="assets/img/portfolio/6.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Donec accumsan</span>
-									<span class="category">branding</span>
-								</a>
-								<img src="assets/img/portfolio/7.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Arcu id porta</span>
-									<span class="category">web</span>
-								</a>
-								<img src="assets/img/portfolio/8.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Curabitur posuere</span>
-									<span class="category">app</span>
-								</a>
-								<img src="assets/img/portfolio/9.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Lacus id sapien</span>
-									<span class="category">branding</span>
-								</a>
-								<img src="assets/img/portfolio/10.jpg" alt="" class="img-responsive">
+								<img src="assets/img/portfolio/rldc.png" alt="" class="img-responsive">
 							</div>
 						</figure>
 					</li>
 				</ul>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<a href="#" class="btn btn-theme-inverse mt40 wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.5s" id="portfolio-more">More</a>
-					</div>
-				</div>
+				<ul id="portfolio-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
+					<li class="portfolio-item" data-groups='["all", "web"]'>
+						<figure>
+							<div class="portfolio-img">
+								<a href="http://taniavam.com" class="overlay">
+									<span class="title">TaniaVAM Portfolio Site</span>
+									<span class="category">Front End Development</span>
+								</a>
+								<img src="assets/img/portfolio/tanivam.png" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "web"]'>
+						<figure>
+							<div class="portfolio-img">
+								<a href="http://lunadeveloper.com/wla" class="overlay">
+									<span class="title">Wonder Learning Academy</span>
+									<span class="category">Front End Development</span>
+								</a>
+								<img src="assets/img/portfolio/wla.png" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+				</ul>
+				<ul id="portfolio-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
+					<li class="portfolio-item" data-groups='["all", "android"]'>
+						<div id="owl-demo">
+						  <div class="item"><img src="assets/img/portfolio/canIGoOut/canI.png" alt="Can I?"></div>
+							<div class="item"><img src="assets/img/portfolio/canIGoOut/2.png" alt="Can I?"></div>
+							<div class="item"><img src="assets/img/portfolio/canIGoOut/3.png" alt="Can I?"></div>
+							<div class="item"><img src="assets/img/portfolio/canIGoOut/4.png" alt="Can I?"></div>
+						</div>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "android"]'>
+						<div id="owl2">
+							<div class="item"><img src="assets/img/portfolio/inandout/inandout.png" alt="In and Out"></div>
+							<div class="item"><img src="assets/img/portfolio/inandout/2.png" alt="In and Out"></div>
+							<div class="item"><img src="assets/img/portfolio/inandout/3.png" alt="In and Out"></div>
+							<div class="item"><img src="assets/img/portfolio/inandout/4.png" alt="In and Out"></div>
+						</div>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "android"]'>
+						<div id="owl3">
+							<div class="item"><img src="assets/img/portfolio/shotchart/shot.png" alt="Shot Chart"></div>
+							<div class="item"><img src="assets/img/portfolio/shotchart/2.png" alt="Shot Chart"></div>
+							<div class="item"><img src="assets/img/portfolio/shotchart/3.png" alt="Shot Chart"></div>
+						</div>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "android"]'>
+						<div id="owl4">
+							<div class="item"><img src="assets/img/portfolio/reflection/reflect.jpg" alt="Reflection"></div>
+							<div class="item"><img src="assets/img/portfolio/reflection/reflect.jpg" alt="Reflection"></div>
+							<div class="item"><img src="assets/img/portfolio/reflection/reflect.jpg" alt="Reflection"></div>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</section>
 
@@ -652,5 +642,35 @@
 		<script src="assets2/js/wow.min.js"></script>
 		<script src="assets2/js/jquery.knob.min.js"></script>
 		<script src="assets2/js/app.js"></script>
+		<script src="assets2/js/owl.carousel.js"></script>
+		<script>
+		$(document).ready(function() {
+		  $("#owl-demo").owlCarousel({
+		      autoPlay: 2000, //Set AutoPlay to 3 seconds
+		      items : 1,
+		      itemsDesktop : [1199,1],
+		      itemsDesktopSmall : [979,1]
+			});
+			$("#owl2").owlCarousel({
+					autoPlay: 2000, //Set AutoPlay to 3 seconds
+					items : 1,
+					itemsDesktop : [1199,1],
+					itemsDesktopSmall : [979,1]
+			});
+			$("#owl3").owlCarousel({
+					autoPlay: 2000, //Set AutoPlay to 3 seconds
+					items : 1,
+					itemsDesktop : [1199,1],
+					itemsDesktopSmall : [979,1]
+			});
+			$("#owl4").owlCarousel({
+					autoPlay: 2000, //Set AutoPlay to 3 seconds
+					items : 1,
+					itemsDesktop : [1199,1],
+					itemsDesktopSmall : [979,1]
+			});
+		});
+
+		</script>
 	</body>
 </html>
